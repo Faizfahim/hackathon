@@ -11,7 +11,7 @@ const Section_2 = () => {
                     <h1 className='text-2xl font-bold'>BESTSELLER PRODUCTS</h1>
                     <p className='text-sm text-[#737373]'>Problems trying to resolve the conflict between </p>
                 </div>
-                <div className='grid grid-cols-4 gap-12'>
+                <div className='grid md:grid-cols-4 gap-12 sm:grid-cols-1'>
                     <div className='flex flex-col gap-3 items-center'>
                         <Image 
                         src='/images/product-cover-5.png'
@@ -101,7 +101,7 @@ const Section_2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className='grid grid-cols-4 gap-12'>
+                <div className='grid md:grid-cols-4 gap-12 sm:grid-cols-1'>
                     <div className='flex flex-col items-center'>
                         <Image 
                         src='/images/product-cover-5-4.png'

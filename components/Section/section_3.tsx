@@ -7,7 +7,7 @@ const Section_3 = () => {
   return (
     <section className='section-3 w-full'>
         <div className='container'>
-            <div className='grid sm:grid-cols-2 lg:gap-3 sm:gap-32'>
+            <div className='grid sm:grid-cols-1 lg:gap-3 sm:gap-32'>
                 <div className='lg:col-start-1 lg:col-end-6 lg:row-start-1 lg:row-end-6 flex items-center'>
                     <div className='s3-content'>
                         <p className='text-xl'>SUMMER 2020</p>

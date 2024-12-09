@@ -6,7 +6,7 @@ const Section_4 = () => {
   return (
     <section className='section-4 sm:py-10'>
         <div className='container'>
-            <div className='lg:flex sm:grid grid-cols-2 gap-4'>
+            <div className='lg:flex sm:grid lg:grid-cols-2 sm:grid-cols-1 gap-4'>
                 <div className=''>
                     <Image 
                     src='/images/asian-woman-man-with-winter-clothes 1.png'
