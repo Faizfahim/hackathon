@@ -19,7 +19,7 @@ const Section_3 = () => {
                         </div>
                     </div>
                 </div>
-                <div className='lg:col-start-6 lg:col-end-12 lg:row-start-1 lg:row-end-6'>
+                <div className='md:col-start-6 md:col-end-12 md:row-start-1 md:row-end-6 '>
                     <div className='s3-image'>
                         <Image 
                         src='/images/shop-hero-2-png-picture-1.png'
