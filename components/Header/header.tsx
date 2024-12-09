@@ -32,16 +32,16 @@ const Header = () => {
 
     {/* Navigation Section */}
     <div className="col-start-4 col-end-13 sm:col-start-3 sm:col-end-12 flex justify-end md:justify-between">
-      <div className="navigations flex items-center w-full bg-white justify-around">
- {/* Hamburger Menu */}
-          <button className="menu-toggle lg:hidden md:block  text-2xl"
+      <div className="navigations flex items-center w-full bg-white justify-around relative">
+        {/* Hamburger Menu */}
+          <button className="menu-toggle lg:hidden sm:block  text-2xl"
           onClick={toggleMenu}>
           <RxHamburgerMenu className="text-[#23A6F0]" />
 
         </button>
 
         {/* Menu */}
-        <nav className="hidden md:block">
+        <nav className="md:hidden block sm:absolute top-6 -left-10 sm:w-full bg-white">
           <ul className={`menu flex gap-6 ${menuOpen ? "active" : ""}`}>
             <li>
               <a href="#home">Home</a>
