@@ -325,7 +325,10 @@ color: black;
 
 @media (min-width: 1024px) {
 
-
+  .s3-image {
+    width: 100%;
+  }
+  
 }
 
 /*for-tablet view-768*/
