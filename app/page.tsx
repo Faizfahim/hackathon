@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import Banner from "@/components/Banner/banner";
 import Footer from "@/components/Footer/footer";

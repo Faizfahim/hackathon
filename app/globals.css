@@ -291,3 +291,81 @@ color: black;
 .f-box h1 {
   font-weight: 700;
 }
+
+
+/*for-larger view-1600*/
+
+/*col-2xl*/
+
+@media  (min-width: 1536px) {
+
+
+
+}
+
+/*for-large-dekstop view-1200*/    
+
+/*col-xl*/
+
+@media (min-width: 1280px) {
+
+
+}
+
+/*for-laptop view-1024*/
+
+/*col-lg*/
+
+@media (min-width: 1024px) {
+
+
+}
+
+/*for-tablet view-768*/
+
+
+/*col-md*/
+
+@media (min-width: 768px) {
+
+  .colors ul li a {
+    padding: 1px 9px;
+}
+.product-content h2 {
+  font-size: 14px;
+}
+.product-content h3 {
+  font-size: 12px;
+}
+.text-center {
+  padding: 5px 5px;
+}
+.product-content p {
+  font-size: 14px;
+}
+.section-3 {
+  padding-top: 60px;
+}
+.footer-navigations {
+  gap: 10px;
+  font-size: 12px;
+}
+.f-box h1 {
+  font-size: 12px;
+}
+  
+}
+
+/*for-landscape_mobile view-640*/
+
+/*col-sm*/
+
+@media (min-width: 640px) {
+  .colors ul li a {
+    padding: 0px 8px;
+}
+.product-content h3 {
+  font-size: 10px;
+}
+  
+}

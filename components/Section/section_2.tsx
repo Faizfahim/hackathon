@@ -19,12 +19,12 @@ const Section_2 = () => {
                         width={239}
                         height={427}
                         />
-                        <div className='product-content text-center flex flex-col gap-3'>
+                        <div className='product-content text-center flex flex-col lg:gap-3 sm:gap-1'>
                             <h2>Graphic Design</h2>
                             <h3>English Department</h3>
                             <p>$16.48 <span>$6.48</span></p>
                             <div className='colors'>
-                                <ul className='flex gap-2 justify-center'>
+                                <ul className='flex lg:gap-2 sm:gap-1 justify-center'>
                                     <li><a href='' className='bg-[#23A6F0]'></a></li>
                                     <li><a href='' className='bg-[#2DC071]'></a></li>
                                     <li><a href='' className='bg-[#E77C40]'></a></li>
@@ -41,12 +41,12 @@ const Section_2 = () => {
                         width={239}
                         height={427}
                         />
-                        <div className='product-content text-center flex flex-col gap-3'>
+                        <div className='product-content text-center flex flex-col lg:gap-3 sm:gap-1'>
                             <h2>Graphic Design</h2>
                             <h3>English Department</h3>
                             <p>$16.48 <span>$6.48</span></p>
                             <div className='colors'>
-                                <ul className='flex gap-2 justify-center'>
+                                <ul className='flex lg:gap-2 sm:gap-1 justify-center'>
                                     <li><a href='' className='bg-[#23A6F0]'></a></li>
                                     <li><a href='' className='bg-[#2DC071]'></a></li>
                                     <li><a href='' className='bg-[#E77C40]'></a></li>
@@ -63,12 +63,12 @@ const Section_2 = () => {
                         width={239}
                         height={427}
                         />
-                        <div className='product-content text-center flex flex-col gap-3'>
+                        <div className='product-content text-center flex flex-col lg:gap-3 sm:gap-1'>
                             <h2>Graphic Design</h2>
                             <h3>English Department</h3>
                             <p>$16.48 <span>$6.48</span></p>
                             <div className='colors'>
-                                <ul className='flex gap-2 justify-center'>
+                                <ul className='flex lg:gap-2 sm:gap-1 justify-center'>
                                     <li><a href='' className='bg-[#23A6F0]'></a></li>
                                     <li><a href='' className='bg-[#2DC071]'></a></li>
                                     <li><a href='' className='bg-[#E77C40]'></a></li>
@@ -85,12 +85,12 @@ const Section_2 = () => {
                         width={239}
                         height={427}
                         />
-                        <div className='product-content text-center flex flex-col gap-3'>
+                        <div className='product-content text-center flex flex-col lg:gap-3 sm:gap-1'>
                             <h2>Graphic Design</h2>
                             <h3>English Department</h3>
                             <p>$16.48 <span>$6.48</span></p>
                             <div className='colors'>
-                                <ul className='flex gap-2 justify-center'>
+                                <ul className='flex lg:gap-2 sm:gap-1 justify-center'>
                                     <li><a href='' className='bg-[#23A6F0]'></a></li>
                                     <li><a href='' className='bg-[#2DC071]'></a></li>
                                     <li><a href='' className='bg-[#E77C40]'></a></li>
@@ -109,12 +109,12 @@ const Section_2 = () => {
                         width={239}
                         height={427}
                         />
-                        <div className='product-content text-center flex flex-col gap-3'>
+                        <div className='product-content text-center flex flex-col lg:gap-3 sm:gap-1'>
                             <h2>Graphic Design</h2>
                             <h3>English Department</h3>
                             <p>$16.48 <span>$6.48</span></p>
                             <div className='colors'>
-                                <ul className='flex gap-2 justify-center'>
+                                <ul className='flex lg:gap-2 sm:gap-1 justify-center'>
                                     <li><a href='' className='bg-[#23A6F0]'></a></li>
                                     <li><a href='' className='bg-[#2DC071]'></a></li>
                                     <li><a href='' className='bg-[#E77C40]'></a></li>
@@ -130,12 +130,12 @@ const Section_2 = () => {
                         width={239}
                         height={427}
                         />
-                        <div className='product-content text-center flex flex-col gap-3'>
+                        <div className='product-content text-center flex flex-col lg:gap-3 sm:gap-1'>
                             <h2>Graphic Design</h2>
                             <h3>English Department</h3>
                             <p>$16.48 <span>$6.48</span></p>
                             <div className='colors'>
-                                <ul className='flex gap-2 justify-center'>
+                                <ul className='flex lg:gap-2 sm:gap-1 justify-center'>
                                     <li><a href='' className='bg-[#23A6F0]'></a></li>
                                     <li><a href='' className='bg-[#2DC071]'></a></li>
                                     <li><a href='' className='bg-[#E77C40]'></a></li>
@@ -151,12 +151,12 @@ const Section_2 = () => {
                         width={239}
                         height={427}
                         />
-                        <div className='product-content text-center flex flex-col gap-3'>
+                        <div className='product-content text-center flex flex-col lg:gap-3 sm:gap-1'>
                             <h2>Graphic Design</h2>
                             <h3>English Department</h3>
                             <p>$16.48 <span>$6.48</span></p>
                             <div className='colors'>
-                                <ul className='flex gap-2 justify-center'>
+                                <ul className='flex lg:gap-2 sm:gap-1 justify-center'>
                                     <li><a href='' className='bg-[#23A6F0]'></a></li>
                                     <li><a href='' className='bg-[#2DC071]'></a></li>
                                     <li><a href='' className='bg-[#E77C40]'></a></li>
@@ -172,12 +172,12 @@ const Section_2 = () => {
                         width={239}
                         height={427}
                         />
-                        <div className='product-content text-center flex flex-col gap-3'>
+                        <div className='product-content text-center flex flex-col lg:gap-3 sm:gap-1 '>
                             <h2>Graphic Design</h2>
                             <h3>English Department</h3>
                             <p>$16.48 <span>$6.48</span></p>
                             <div className='colors'>
-                                <ul className='flex gap-2 justify-center'>
+                                <ul className='flex lg:gap-2 sm:gap-1 justify-center'>
                                     <li><a href='' className='bg-[#23A6F0]'></a></li>
                                     <li><a href='' className='bg-[#2DC071]'></a></li>
                                     <li><a href='' className='bg-[#E77C40]'></a></li>

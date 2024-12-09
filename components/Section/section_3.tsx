@@ -1,3 +1,4 @@
+
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -6,8 +7,8 @@ const Section_3 = () => {
   return (
     <section className='section-3 w-full'>
         <div className='container'>
-            <div className='grid'>
-                <div className='col-start-1 col-end-6 row-start-1 row-end-12 flex items-center'>
+            <div className='grid sm:grid-cols-2 lg:gap-3 sm:gap-32'>
+                <div className='lg:col-start-1 lg:col-end-6 lg:row-start-1 lg:row-end-6 flex items-center'>
                     <div className='s3-content'>
                         <p className='text-xl'>SUMMER 2020</p>
                         <h1 className='xl:text-[58px] font-bold w-[509px] lg:text-[40px] lg:gap-3'>Vita Classic Product</h1>
@@ -18,7 +19,7 @@ const Section_3 = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-start-6 col-end-12 row-start-1 row-end-12'>
+                <div className='lg:col-start-6 lg:col-end-12 lg:row-start-1 lg:row-end-6'>
                     <div className='s3-image'>
                         <Image 
                         src='/images/shop-hero-2-png-picture-1.png'

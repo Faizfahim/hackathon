@@ -17,7 +17,7 @@ const Section_5 = () => {
                     <p className='text-sm text-[#737373] w-[463px] text-center'>Problems trying to resolve the conflict between 
                     the two major realms of Classical physics: Newtonian mechanics</p>
                 </div>
-                <div className='grid xl:grid-cols-3 gap-4 lg:grid-cols-2'>
+                <div className='grid xl:grid-cols-3 gap-4 lg:grid-cols-2 sm:grid-cols-1'>
                     <div className='w-[348px] shadow-lg shadow-indigo-500/40'>
                         <Image  
                         src='/images/unsplash_dEGu-oCuB1Y.png'

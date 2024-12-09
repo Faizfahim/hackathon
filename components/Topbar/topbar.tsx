@@ -7,7 +7,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const Topbar = () => {
   return (
-    <div className='topbar w-full px-6'>
+    <div className='topbar w-full px-6 hidden lg:block'>
       <div className='flex justify-between text-white items-center h-[46px] text-sm'>
         <div className='flex gap-6 justify-center font-bold'>
           <a href='tel:(225) 555-0118' className='flex items-center gap-3'>

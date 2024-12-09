@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa6'
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { Input } from '@/components/ui/input'
 
 const Footer = () => {
   return (
@@ -12,17 +12,17 @@ const Footer = () => {
           <div className='flex justify-between py-10'>
             <h1 className='text-2xl font-bold'>Bandage</h1>
             <div className='flex gap-5 text-2xl text-[#23A6F0]'>
-              <Link href=''><FaFacebook /></Link>
-              <Link href=''><FaInstagram /></Link>
-              <Link href=''><FaTwitter /></Link>
+              <Link href='#'><FaFacebook /></Link>
+              <Link href='#'><FaInstagram /></Link>
+              <Link href='#'><FaTwitter /></Link>
             </div>
           </div>
         </div>
       </div>
       <div className='main-footer p-12'>
         <div className='container'>
-          <div className='grid'>
-            <div className='col-start-1 col-end-2 f-box'>
+          <div className='grid md:grid-cols-none sm:grid-cols-1 sm:gap-6'>
+            <div className='md:col-start-1 md:col-end-2 f-box'>
               <h1>Company Info</h1>
               <div className='footer-navigations'>
                 <Link href="">About Us</Link>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <Link href=''>Blog</Link>
               </div>
             </div>
-            <div className='col-start-2 col-end-4 f-box'>
+            <div className='md:col-start-2 md:col-end-4 f-box'>
               <h1>Legal</h1>
               <div className='footer-navigations'>
                 <Link href="">About Us</Link>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <Link href=''>Blog</Link>
               </div>
             </div>
-            <div className='col-start-4 col-end-6 f-box'>
+            <div className='md:col-start-4 md:col-end-6 f-box'>
               <h1>Features</h1>
               <div className='footer-navigations'>
                 <Link href="">Business Marketing</Link>
@@ -49,7 +49,7 @@ const Footer = () => {
                 <Link href=''>Unlimited Support</Link>
               </div>
             </div>
-            <div className='col-start-6 col-end-8 f-box'>
+            <div className='md:col-start-6 md:col-end-8 f-box'>
               <h1>Resources</h1>
               <div className='footer-navigations'>
                 <Link href="">IOS & Android</Link>
@@ -58,7 +58,7 @@ const Footer = () => {
                 <Link href=''>API</Link>
               </div>
             </div>
-            <div className='col-start-8 col-end-12 f-box'>
+            <div className='md:col-start-8 md:col-end-12 f-box'>
               <h1>Get In Touch</h1>
               <div className='f-box'>
                 <div className="flex w-full max-w-sm items-center space-x-2">
