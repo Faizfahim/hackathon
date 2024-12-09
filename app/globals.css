@@ -363,11 +363,11 @@ color: black;
   
 }
 
-/*for-landscape_mobile view-640*/
+/*for-landscape_mobile view-576*/
 
 /*col-sm*/
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .colors ul li a {
     padding: 0px 8px;
 }

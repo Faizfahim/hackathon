@@ -41,7 +41,7 @@ const Header = () => {
         </button>
 
         {/* Menu */}
-        <nav className="md:hidden block sm:absolute top-6 -left-10 sm:w-full bg-white">
+        <nav className="hidden sm:block lg:relative sm:absolute lg:top-0 sm:top-6 -left-10 sm:w-full bg-white">
           <ul className={`menu flex gap-6 ${menuOpen ? "active" : ""}`}>
             <li>
               <a href="#home">Home</a>

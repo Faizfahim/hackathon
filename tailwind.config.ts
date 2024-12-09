@@ -55,7 +55,7 @@ const config: Config = {
   			center: true,
   			padding: '5rem',
   			screens: {
-  				'sm': '640px',
+  				'sm': '576px',
   				'md': '768px',
   				'lg': '1024px',
   				'xl': '1280px',
